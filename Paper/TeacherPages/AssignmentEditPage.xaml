@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Paper.AssignmentEditPage">
+	<ContentPage.Content>
+        <StackLayout
+            Padding ="5,5,20,5"
+            >
+            <Label
+                Text = "Edit Assignment:"
+                FontSize = "40"
+                FontAttributes = "Bold"
+                />
+            <Label 
+                Text = "Assignment Name:"
+                />
+            <Entry x:Name = "name_Entry"
+                
+            />
+            <Label
+                Text = "Description:"
+                />
+            <Entry x:Name = "description_Entry"
+                HeightRequest = "200"
+            />
+
+            <DatePicker x:Name = "datePicker"
+                >
+              
+            </DatePicker>
+
+            
+            <Button x:Name = "confirm_Button"
+                Text = "Confirm"
+            />
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

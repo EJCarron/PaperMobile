@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="ThreeTier">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PaperGeneral/Command Objects and keys.cs">
+    <Files>
+      <File FileName="../test2/test2_mid/MidTierHttpHandler.cs" Line="28" Column="1" />
+      <File FileName="PaperGeneral/Command Objects and keys.cs" Line="52" Column="131" />
+      <File FileName="../test2/test2_mid/Database keys.cs" Line="52" Column="18" />
+      <File FileName="../SqlWrapper/SqlWrapper/Expressions.cs" Line="48" Column="18" />
+      <File FileName="Paper/Testing stuff/CommandCentre.cs" Line="492" Column="48" />
+      <File FileName="../test2/test2_mid/SaltingHash.cs" Line="91" Column="1" />
+      <File FileName="The_Model/HomeWorkModel.cs" Line="253" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Paper.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.09ACB095-75B0-4B91-875E-78B95C15BD28" />
+  <MonoDevelop.Ide.ItemProperties.Test__Rig PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="ThreeTier" Name="ThreeTier">
+      <Items>
+        <StartupItem ItemId="{D6924A3D-0E5F-4DE4-8DE5-7A7F58938939}" ItemName="Paper.iOS" ConfigurationId="Default" />
+        <StartupItem ItemId="{CAC1ECF4-DEA0-4175-B6B3-9E31E1B410E4}" ItemName="test2_mid" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.MidTier PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

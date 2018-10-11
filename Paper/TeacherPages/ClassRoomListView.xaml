@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Paper.ClassRoomListView"
+    xmlns:local = "clr-namespace:Paper;assembly=Paper"
+    >
+
+   
+    <ContentView.Content>
+
+       
+        <StackLayout x:Name = "stack">
+            <StackLayout.Children>
+                <Label x:Name = "teacherName_Label"
+                    FontSize = "40"
+                    FontAttributes = "Bold"
+                    /> 
+                <ListView x:Name = "classListView">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>                          
+                            <local:ViewCell_ClassRoomView>
+                                <ViewCell.ContextActions>
+                                    <MenuItem Clicked="OnArchive" CommandParameter = "{Binding classRoom_name}"
+                                        Text = "Archive" IsDestructive = "true" />
+                                </ViewCell.ContextActions>
+                                <Grid
+                                    BackgroundColor = "#eee"
+                                >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                      </Grid.RowDefinitions>
+                                      <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*" />
+                                      </Grid.ColumnDefinitions>
+
+                                    
+                                    <Label x:Name = "name_label" 
+                                        Text = "{Binding classRoom_name}" 
+                                        VerticalOptions = "Center"
+                                        HorizontalOptions = "Center"
+                                        Grid.Column = "0"
+                                        BackgroundColor = "#eee"
+                                    />
+                                    <Label x:Name = "nextDue_label"
+                                        Text = "{Binding nextDue}"
+                                        VerticalOptions = "Center"
+                                        HorizontalOptions = "Center"
+                                        Grid.Column = "1"
+                                        BackgroundColor = "#eee"
+                                    />
+
+                                </Grid>
+
+                                    
+                            </local:ViewCell_ClassRoomView>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout.Children>
+        </StackLayout>
+	</ContentView.Content>
+</ContentView>

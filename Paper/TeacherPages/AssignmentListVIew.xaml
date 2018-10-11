@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Paper.AssignmentListView"
+    xmlns:local = "clr-namespace:Paper;assembly=Paper"
+    >
+	<ContentView.Content>
+        <StackLayout>
+            <StackLayout.Children>
+                <ListView x:Name = "assignmentListView">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>                          
+                            <local:ViewCell_AssignmentView>
+                                <ViewCell.ContextActions>
+                                    <MenuItem Clicked="OnArchive" CommandParameter="{Binding assignment_id}"
+                                       Text="Archive" IsDestructive="True" />
+                                 </ViewCell.ContextActions>
+                                <Grid
+                                    BackgroundColor = "{Binding dueColor}"
+                                >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                      </Grid.RowDefinitions>
+                                      <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*" />
+                                      </Grid.ColumnDefinitions>
+
+                                    
+                                    <Label x:Name = "assignmentName_label" 
+                                        Text = "{Binding assignment_name}" 
+                                        VerticalOptions = "Center"
+                                        HorizontalOptions = "Center"
+                                        Grid.Column = "0"
+                                        BackgroundColor = "#eee"
+                                    />
+                                    <Label x:Name = "due_label"
+                                        Text = "{Binding dueDate}"
+                                        VerticalOptions = "Center"
+                                        HorizontalOptions = "Center"
+                                        Grid.Column = "1"
+                                        BackgroundColor = "#eee"
+                                    />
+
+                                </Grid>
+
+                                    
+                            </local:ViewCell_AssignmentView>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout.Children>
+        </StackLayout>
+	</ContentView.Content>
+</ContentView>

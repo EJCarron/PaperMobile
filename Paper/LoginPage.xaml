@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Paper.LoginPage">
+	<ContentPage.Content>
+        <StackLayout Padding ="5,5,20,5"
+            >
+            <Label Text = "Paper" FontSize = "50" FontAttributes = "Bold"/>
+            <Label Text = "Email:" />
+            <Entry x:Name = "email_Entry" />
+            <Label Text = "Password:" />
+            <Entry x:Name = "password_Entry"/>
+            <Button x:Name = "login_Button" Text = "Login" />
+            <Button x:Name = "newUser_Button" Text = "Create Account"/>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

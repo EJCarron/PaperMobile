@@ -1,0 +1,10 @@
+/Users/edwardcarron/Projects/Paper/The_Model/bin/Debug/The_Model.dll
+/Users/edwardcarron/Projects/Paper/The_Model/bin/Debug/The_Model.pdb
+/Users/edwardcarron/Projects/Paper/The_Model/bin/Debug/Newtonsoft.Json.dll
+/Users/edwardcarron/Projects/Paper/The_Model/bin/Debug/PaperGeneral.dll
+/Users/edwardcarron/Projects/Paper/The_Model/bin/Debug/PaperGeneral.pdb
+/Users/edwardcarron/Projects/Paper/The_Model/bin/Debug/Newtonsoft.Json.xml
+/Users/edwardcarron/Projects/Paper/The_Model/obj/Debug/The_Model.csprojResolveAssemblyReference.cache
+/Users/edwardcarron/Projects/Paper/The_Model/obj/Debug/The_Model.csproj.CoreCompileInputs.cache
+/Users/edwardcarron/Projects/Paper/The_Model/obj/Debug/The_Model.dll
+/Users/edwardcarron/Projects/Paper/The_Model/obj/Debug/The_Model.pdb

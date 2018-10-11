@@ -1,0 +1,8 @@
+/Users/edwardcarron/Projects/Paper/PaperGeneral/bin/Debug/PaperGeneral.dll
+/Users/edwardcarron/Projects/Paper/PaperGeneral/bin/Debug/PaperGeneral.pdb
+/Users/edwardcarron/Projects/Paper/PaperGeneral/bin/Debug/Newtonsoft.Json.dll
+/Users/edwardcarron/Projects/Paper/PaperGeneral/bin/Debug/Newtonsoft.Json.xml
+/Users/edwardcarron/Projects/Paper/PaperGeneral/obj/Debug/PaperGeneral.csproj.CoreCompileInputs.cache
+/Users/edwardcarron/Projects/Paper/PaperGeneral/obj/Debug/PaperGeneral.dll
+/Users/edwardcarron/Projects/Paper/PaperGeneral/obj/Debug/PaperGeneral.pdb
+/Users/edwardcarron/Projects/Paper/PaperGeneral/obj/Debug/PaperGeneral.csprojResolveAssemblyReference.cache

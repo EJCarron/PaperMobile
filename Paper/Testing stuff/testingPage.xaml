@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Paper.testingPage">
+	<ContentPage.Content>
+        <StackLayout>
+            <TableView>
+                <TableSection>
+                    <SwitchCell x:Name = "createTeacher_Switch" Text = "Create Teacher"/>
+                    <SwitchCell x:Name = "createStudent_Switch" Text = "Create Student"/>
+                    <SwitchCell x:Name = "addClassRoom_Switch" Text = "Add ClassRoom To Teacher"/>
+                    <SwitchCell x:Name = "addAssignment_Switch" Text = "Add Assignment To ClassRoom"/>
+                    <SwitchCell x:Name = "editAssignment_Switch" Text = "Edit Assignment"/>
+                    <SwitchCell x:Name = "editTeacher_Switch" Text = "Edit Teacher"/>
+                    <SwitchCell x:Name = "editStudent_Switch" Text = "Edit Student"/>
+                    <SwitchCell x:Name = "archiveTeacher_Switch" Text = "Archive Teacher"/>
+                    <SwitchCell x:Name = "unArchiveTeacher_Switch" Text = "UnArchive Teacher"/>
+                    <SwitchCell x:Name = "archiveStudent_Switch" Text = "Archive Student"/>
+                    <SwitchCell x:Name = "unArchiveStudent_Switch" Text = "UnArchive Student"/>
+                    <SwitchCell x:Name = "archiveAssignment_Switch" Text = "Archive Assignment"/>
+                    <SwitchCell x:Name = "unArchiveAssignment_Switch" Text = "UnArchive Assignment"/>
+                    <SwitchCell x:Name = "archiveClassRoom_Switch" Text = "Archive ClassRoom"/>
+                    <SwitchCell x:Name = "unArchiveClassRoom_Switch" Text = "UnArchive ClassRoom"/>
+                    <SwitchCell x:Name = "markDone_Switch" Text = "Mark Assignment Done"/>
+                    <SwitchCell x:Name = "undoMarkDone_Switch" Text = "Undo Mark Assignment Done"/>
+                    <SwitchCell x:Name = "sub_Switch" Text = "Sub Student"/>
+                    <SwitchCell x:Name = "unsub_Switch" Text = "Unsub Student"/>
+                    <SwitchCell x:Name = "initTeacher_Switch" Text = "Init Teacher"/>
+                    <SwitchCell x:Name = "initStudent_Switch" Text = "InitStudent"/>
+                  
+                </TableSection>
+            </TableView>
+            <Button x:Name = "go_Button" Text = "Go" FontAttributes = "Bold" FontSize =  "40"/>
+            <Button x:Name = "fullTest_Button" Text = "FullTest" FontAttributes = "Bold" FontSize =  "40"/>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

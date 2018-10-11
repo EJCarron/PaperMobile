@@ -1,0 +1,2 @@
+/Users/edwardcarron/Projects/Paper/The_Model/obj/Debug/test2_mid.csprojResolveAssemblyReference.cache
+/Users/edwardcarron/Projects/Paper/The_Model/obj/Debug/test2_mid.csproj.CoreCompileInputs.cache

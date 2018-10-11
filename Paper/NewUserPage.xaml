@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Paper.NewUserPage">
+	<ContentPage.Content>
+        <StackLayout>
+            <Label Text = "Paper" FontSize = "50" FontAttributes = "Bold"/>
+            <Label Text = "Name" />
+            <Entry x:Name = "userName_Entry" />
+            <Label Text = "Email:" />
+            <Entry x:Name = "email_Entry" />
+            <Label Text = "Password:" />
+            <Entry x:Name = "password_Entry"/>
+            <Picker x:Name = "type_Picker" Title = "Select user type" >
+                <Picker.ItemsSource>
+                    <x:Array Type = "{x:Type x:String}">
+                        <x:String>Student</x:String>
+                        <x:String>Teacher</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Button x:Name = "go_Button" Text = "Go"/>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
