@@ -1,0 +1,12 @@
+﻿<Properties StartupConfiguration="{CAC1ECF4-DEA0-4175-B6B3-9E31E1B410E4}|">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../AngularHomeWork/AngularHomeWork/TheDataStore.cs" line="1510" offsetX="1130" offsetY="30356" expression="newDueDateTicks" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.test2__mid PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

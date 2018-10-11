@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test2_mid", "test2_mid.csproj", "{CAC1ECF4-DEA0-4175-B6B3-9E31E1B410E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Three Tier|Any CPU = Three Tier|Any CPU
+		testMidTier|Any CPU = testMidTier|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC1ECF4-DEA0-4175-B6B3-9E31E1B410E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC1ECF4-DEA0-4175-B6B3-9E31E1B410E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC1ECF4-DEA0-4175-B6B3-9E31E1B410E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC1ECF4-DEA0-4175-B6B3-9E31E1B410E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC1ECF4-DEA0-4175-B6B3-9E31E1B410E4}.Three Tier|Any CPU.ActiveCfg = Three Tier|Any CPU
+		{CAC1ECF4-DEA0-4175-B6B3-9E31E1B410E4}.Three Tier|Any CPU.Build.0 = Three Tier|Any CPU
+		{CAC1ECF4-DEA0-4175-B6B3-9E31E1B410E4}.testMidTier|Any CPU.ActiveCfg = testMidTier|Any CPU
+		{CAC1ECF4-DEA0-4175-B6B3-9E31E1B410E4}.testMidTier|Any CPU.Build.0 = testMidTier|Any CPU
+	EndGlobalSection
+EndGlobal
