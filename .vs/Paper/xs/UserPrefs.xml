@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="ThreeTier">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PaperGeneral/Command Objects and keys.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Paper Status">
     <Files>
       <File FileName="../test2/test2_mid/MidTierHttpHandler.cs" Line="28" Column="1" />
       <File FileName="PaperGeneral/Command Objects and keys.cs" Line="52" Column="131" />
@@ -8,6 +8,8 @@
       <File FileName="Paper/Testing stuff/CommandCentre.cs" Line="492" Column="48" />
       <File FileName="../test2/test2_mid/SaltingHash.cs" Line="91" Column="1" />
       <File FileName="The_Model/HomeWorkModel.cs" Line="253" Column="1" />
+      <File FileName="../test2/test2_mid/ajax.ashx" Line="1" Column="1" />
+      <File FileName="Paper Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
